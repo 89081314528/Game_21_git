@@ -26,8 +26,8 @@ public class Main {
         }
 //        int kartaKrupie = (int) (Math.random() * (25 - 16)) + 16;
         //работает быстрее
-        int kartaKrupie = (int) (ThreadLocalRandom.current().nextInt(16,25));
-        System.out.println("У крупье " + kartaKrupie + " очков");
+            int kartaKrupie = (int) (ThreadLocalRandom.current().nextInt(16,25));
+            System.out.println("У крупье " + kartaKrupie + " очков");
         if (kartaKrupie > 21) {
             System.out.println("У крупье больше 21, перебор, вы выиграли");
             return;
